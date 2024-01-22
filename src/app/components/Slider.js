@@ -39,7 +39,7 @@ function SliderPage({ slides }) {
                 size={50}
               />
               {index === current && (
-                <Image
+                <img
                   src={slide.image}
                   alt="/"
                   width="1440"

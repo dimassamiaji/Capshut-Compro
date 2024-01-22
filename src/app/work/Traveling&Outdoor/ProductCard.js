@@ -5,7 +5,7 @@ import Link from "next/link";
 function ProductCard({ name, description, imageUrl }) {
   return (
     <div className="max-w-sm rounded overflow-hidden relative group">
-      <Image
+      <img
         className="w-full h-48 object-cover"
         src={imageUrl}
         alt={name}
